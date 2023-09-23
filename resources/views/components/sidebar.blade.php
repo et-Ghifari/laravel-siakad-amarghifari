@@ -8,8 +8,8 @@
         </div>
         <ul class="sidebar-menu">
             <li class="menu-header">Dashboard</li>
-            <li class="{{ Request::is('/') ? 'active' : '' }}">
-                <a class="nav-link" href="{{ url('') }}"><i class="fas fa-fire">
+            <li class="{{ Request::is('home') ? 'active' : '' }}">
+                <a class="nav-link" href="{{ url('home') }}"><i class="fas fa-fire">
                     </i> <span>Dashboard</span>
                 </a>
             </li>
